@@ -50,9 +50,9 @@ end
 message1 = '.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...'
 decoded_message1 = MorseCodeDecoder.decode(message1)
 puts decoded_message1
-message2 = "-- -.--   -. .- -- ."
+message2 = '-- -.--   -. .- -- .'
 decoded_message2 = MorseCodeDecoder.decode(message2)
 puts decoded_message2
-message3 = ".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ..."
+message3 = '.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...'
 decoded_message3 = MorseCodeDecoder.decode(message3)
 puts decoded_message3
